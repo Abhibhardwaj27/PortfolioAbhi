@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi Bhardwaj - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>AB</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <button class="dark-mode-toggle" id="darkModeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Abhi Bhardwaj</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Final-year B.Tech CSE Student, Data Science Enthusiast, Frontend & Full Stack Developer, and Machine Learning Explorer
+                </p>
+                <p class="hero-description">
+                    Blending creativity with code to craft intuitive, data-driven, and visually stunning digital experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="images/AbhiBharwdajResume.docx" class="btn btn-secondary">
+                        <span>Download Resume</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+            <div class="scroll-arrow"></div>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="images/Mineimage.jpg" alt="My profile picture">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        I'm a final‑year Computer Science Engineering student who loves bringing ideas to life at the intersection of design, data, and code. My focus spans Frontend and Full‑Stack development with React, Node.js and Express, along with a growing body of work in Data Science and Machine Learning using Python. I enjoy shaping products that feel intuitive and look refined, balancing performance with a clean visual language.
+                    </p>
+                    <p>
+                        Much of my learning comes from building real projects—iterating with user feedback, refining interactions, and automating workflows where it removes friction. I’m especially excited about how AI/ML can turn raw data into meaningful, human‑centred experiences, and I’m continuously exploring practical ways to embed intelligent features into modern web apps.
+                    </p>
+                    <p>
+                        Beyond code, I’m curious by nature—often reading about Indian and European history or diving into economics. That broader perspective helps me think more critically and creatively when designing systems and solving problems in tech.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-tag">Data Science</div>
+                        <div class="skill-tag">Machine Learning</div>
+                        <div class="skill-tag">Full Stack Development</div>
+                        <div class="skill-tag">React</div>
+                        <div class="skill-tag">Node.js</div>
+                        <div class="skill-tag">Python</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ZenGarden</h3>
+                        <p class="project-description">
+                            MERN stack habit tracking & productivity app with JWT authentication, gamified virtual garden, AI chatbot, and containerized deployment.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                        <a href="https://github.com/Abhibhardwaj27/Zen.git" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">HCI-Enabled Smart Solar Energy Management</h3>
+                        <p class="project-description">
+                            AI-powered prediction system using LSTM, XGBoost, Bayesian models with React interface for real-time energy planning.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">LSTM</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <a href="https://github.com/Abhibhardwaj27/R-D.git" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="images/Project.png" alt="Project Screenshot">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">User-Centered Educational Platform Design</h3>
+                        <p class="project-description">
+                            Interactive learning interface designed in Figma with iterative user feedback, mascot-based branding, and accessibility‑first layouts to enhance engagement and usability.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">UX</span>
+                            <span class="tech-tag">Accessibility</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="images/Skycast.png" alt="Project Screenshot">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SkyCast – Real-Time Weather App</h3>
+                        <p class="project-description">
+                            JavaScript weather application using the OpenWeatherMap API to deliver real‑time forecasts, temperature, and conditions for any city with a responsive, user‑friendly interface.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">OpenWeatherMap</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-heading">Languages & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="tech-tag logo-tag"><i class="fab fa-react"></i>React</span>
+                        <span class="tech-tag logo-tag"><i class="fab fa-node"></i>Node.js</span>
+                        <span class="tech-tag logo-tag"><i class="fas fa-code"></i>Express</span>
+                        <span class="tech-tag logo-tag"><i class="fab fa-js"></i>JavaScript</span>
+                        <span class="tech-tag logo-tag"><i class="fab fa-python"></i>Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-heading">DevOps & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tech-tag logo-tag"><i class="fab fa-git-alt"></i>Git</span>
+                        <span class="tech-tag logo-tag"><i class="fab fa-github"></i>GitHub</span>
+                        <span class="tech-tag logo-tag"><i class="fab fa-docker"></i>Docker</span>
+                        <span class="tech-tag logo-tag"><i class="fas fa-gear"></i>Jenkins</span>
+                        <span class="tech-tag logo-tag"><i class="fas fa-paper-plane"></i>Postman</span>
+                        <span class="tech-tag logo-tag"><i class="fab fa-jira"></i>Jira</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-heading">UI/UX & Design</h3>
+                    <div class="skill-tags">
+                        <span class="tech-tag logo-tag"><i class="fab fa-figma"></i>Figma</span>
+                        <span class="tech-tag logo-tag"><i class="fas fa-palette"></i>Canva</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-heading">Database</h3>
+                    <div class="skill-tags">
+                        <span class="tech-tag logo-tag"><i class="fas fa-leaf"></i>MongoDB</span>
+                        <span class="tech-tag logo-tag"><i class="fas fa-database"></i>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-list">
+                <article class="experience-card">
+                    <header class="experience-header">
+                        <h3 class="experience-role">UI/UX Design Intern</h3>
+                        <div class="experience-meta">
+                            <span class="company">Zidio Development</span>
+                            <span class="dot">•</span>
+                            <span class="location">Remote</span>
+                            <span class="dot">•</span>
+                            <span class="duration"> 06/2025 – 07/2025</span>
+                        </div>
+                    </header>
+                    <ul class="experience-points">
+                        <li>Designed and prototyped intuitive user interfaces for an educational platform using Figma and UX principles.</li>
+                        <li>Conducted user research, implemented dark mode, scrollable layouts, and mascot-based theme.</li>
+                        <li>Collaborated in an agile team to ensure accessibility, consistency, and timely delivery of UI components.</li>
+                        <li>Enhanced engagement and usability through user-centric design improvements.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-image">
+                        <div class="image-placeholder">
+                            <img class="brand-logo" src="https://cdn.simpleicons.org/deloitte/0B9743" alt="Deloitte logo">
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Data Analytics Job Simulation</h3>
+                        <p>Deloitte • July 2025</p>
+                        <a href="images/Deloitte.pdf" class="btn btn-outline" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-image">
+                        <div class="image-placeholder">
+                            <img class="brand-logo" src="https://cdn.simpleicons.org/cisco/1BA0D7" alt="Cisco logo">
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Data Science</h3>
+                        <p>Cisco • July 2022</p>
+                        <a href="images/Deloitte.pdf" class="btn btn-outline" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-image">
+                        <div class="image-placeholder">
+                            <img class="brand-logo" src="https://cdn.simpleicons.org/infosys/007CC3" alt="Infosys logo">
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Data Visualization</h3>
+                        <p>Infosys Springboard • July 2025</p>
+                        <a href="#" class="btn btn-outline">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-image">
+                        <div class="image-placeholder">
+                            <img class="brand-logo" src="https://cdn.simpleicons.org/html5/E34F26" alt="Web Dev logo">
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Web Development</h3>
+                        <p>June 2025</p>
+                        <a href="images/Certificate.pdf" class="btn btn-outline" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-image">
+                        <div class="image-placeholder">
+                            <img class="brand-logo" src="https://cdn.simpleicons.org/google/4285F4" alt="Google logo">
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Google UX Design</h3>
+                        <p>July 2024</p>
+                        <a href="images/UI AND UX CERTIFICATE FINAL.pdf" class="btn btn-outline" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-image">
+                        <div class="image-placeholder">
+                            <img class="brand-logo" src="https://cdn.simpleicons.org/google/34A853" alt="Google logo">
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Digital Marketing</h3>
+                        <p>Google • July 2023</p>
+                        <a href="images/digitalgarage_certificate.pdf" class="btn btn-outline" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Connect with Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:abhi.bhardwaj22@st.niituniversity.in">abhi.bhardwaj22@st.niituniversity.in</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Abhibhardwaj27" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/so_its_just_abhi?igsh=MWxmNTU4OHZtMXdidw==" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="contact-message">Have a project, idea, or opportunity? I'd love to hear from you. Drop a message and I'll get back to you soon.</p>
+                <form id="contactForm" class="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><span>Send Message</span><i class="fas fa-paper-plane"></i></button>
+                    <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Abhi Bhardwaj. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back To Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
